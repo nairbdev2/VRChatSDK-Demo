@@ -19,21 +19,29 @@
 # Nathan He
   Part C Models + Links
   * [placeHolder](https://www.google.com/)
+  
   Part B Models + Links
   
+  
   Part A Models + Links
+
 
 # Brian DeVilla
   Part C Models + Links
   
+  
   Part B Models + Links
+  
   
   Part A Models + Links
     
 # Yushen Li
   Part C Models + Links
 
+
   Part B Models + Links
   
+  
   Part A Models + Links
+
 
