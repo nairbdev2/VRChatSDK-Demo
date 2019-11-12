@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/cs428-project 3 main.unity
+  isLoaded: 1
+  isActive: 1
