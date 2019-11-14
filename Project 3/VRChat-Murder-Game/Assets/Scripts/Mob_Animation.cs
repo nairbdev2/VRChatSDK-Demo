@@ -11,14 +11,16 @@ public class Mob_Animation : MonoBehaviour {
     protected int counter;              //Second Timer for Turning
     protected float moveCounter;        //Move Smoothly by frame
     protected bool switchMove;          //Switch MoveSet
-    protected bool isRotateActive;      //isRotateActive
+    protected bool pauseCounter;        //Pause the Counter
+    Vector3 velocity = new Vector3(1.0f, 0.0f, 0.0f);
 
 	// Initialization of Counter
 	void Start () {
         counter = 0;
         StartCoroutine(MyCounter());
-        isRotateActive = false;
         switchMove = false;
+        pauseCounter = false;
+        animateObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z);
     }
 
     //Counts in Terms of Seconds for Unity
@@ -26,8 +28,15 @@ public class Mob_Animation : MonoBehaviour {
     {
         //Debug.Log(counter);
         while (true) { 
-        yield return new WaitForSeconds(1);
-        counter++;
+            if (pauseCounter == false)
+            {
+                yield return new WaitForSeconds(1);
+                counter++;
+            }
+            else
+            {
+                yield return null;
+            }
         }
     }
 
@@ -41,29 +50,33 @@ public class Mob_Animation : MonoBehaviour {
             animateObject.transform.rotation = Quaternion.Slerp(fromAngle, toAngle, t);
             yield return null;
         }
-
-        isRotateActive = false;
-
-        if (switchMove == false)
-        {
-            switchMove = true;
-        }
-        else
-        {
-            switchMove = false;
-        }
     }
 
+
+    // Move Sets
     void moveForwardX()
     {
-        animateObject.transform.position = new Vector3(transform.position.x + (moveCounter/32), transform.position.y, transform.position.z);
+        //float myFront = transform.position.x + (moveCounter / 32);
+        //Debug.Log("Transform X Positive: " + myFront);
+
+        //animateObject.transform.position = new Vector3(transform.position.x + (moveCounter / 32), transform.position.y, transform.position.z);
+        //animateObject.transform.position += animateObject.Transform.forward * Time.deltaTime; 
+        //Debug.Log("Velocity Pos Change in positive: " + velocity * Time.fixedDeltaTime);
+        animateObject.transform.position += velocity * Time.deltaTime;
     }
 
     void moveBackwardX()
     {
-        animateObject.transform.position = new Vector3(transform.position.x - (moveCounter / 32), transform.position.y, transform.position.z);
+        //float myBack = transform.position.x - (moveCounter / 32);
+        //Debug.Log("Transform X Negative: " + myBack);
+
+        //animateObject.transform.position = new Vector3(transform.position.x - (moveCounter / 32), transform.position.y, transform.position.z);
+        //animateObject.transform.position -= animateObject.Transform.forward * Time.deltaTime;
+        //Debug.Log("Velocity Pos Change in negative: " + velocity * Time.fixedDeltaTime);
+        animateObject.transform.position -= velocity * Time.deltaTime;
     }
 
+    /*
     void moveForwardZ()
     {
         animateObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z + (moveCounter / 32));
@@ -73,35 +86,82 @@ public class Mob_Animation : MonoBehaviour {
     {
         animateObject.transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - (moveCounter / 32));
     }
+    */
+
+    //MoveByXAxis
+    void moveByXAxis()
+    {
+        //User wants to let this run until 10 seconds and then 
+        if (counter % timeToTurn == 0) {
+            pauseCounter = true;
+            //Swap MoveForward with MoveBackward
+            if (switchMove == false)
+            {
+                switchMove = true;
+            }
+            else
+            {
+                switchMove = false;
+            }
+
+            //This creates a coroutine to rotate the object
+            StartCoroutine(RotateMe(Vector3.up * 90, 1f));
+
+
+
+        } else
+        {
+            pauseCounter = false;
+            if (switchMove == false)
+            {
+                moveForwardX();
+                //Debug.Log("Moving Forward!");
+            } else if (switchMove == true)
+            {
+                moveBackwardX();
+                //Debug.Log("Moving Backwards!");
+            }
+        }
+            //Update MoveCounter
+            if (pauseCounter == false)
+            {
+                moveCounter++;
+            }
+    }
+
+
+    void moveByZAxis()
+    {
+
+    }
+
 
     // Update is called once per frame (I was a bit drunk when coding this so beware)
     void Update() {
 
-       //Debug.Log(counter);
-        Debug.Log(moveCounter);
+        //Debug.Log(counter);
+        //Debug.Log(moveCounter);
 
-        if ((counter % timeToTurn != 0) && (isRotateActive == false) && (switchMove == false))
-        {
-            moveForwardX();
-        } else if ((counter % timeToTurn != 0) && (isRotateActive == false) && (switchMove == true))
-        {
-            moveBackwardX();
-        }
-        else
-        {
-            isRotateActive = true;
-            StartCoroutine(RotateMe(Vector3.up * 90, 5f));
-            moveCounter++;
-        }
+        moveByXAxis();
 
+
+
+        //if ((counter % timeToTurn != 0) && (isRotateActive == false) && (switchMove == false))
+        //{
+        //    moveForwardX();
+        //} else if ((counter % timeToTurn != 0) && (isRotateActive == false) && (switchMove == true))
+        //{
+        //    moveBackwardX();
+        //}
+        //else
+        //{
+        //    StartCoroutine(RotateMe(Vector3.up * 90, 5f));
+        //    moveCounter++;
+        //}
         //moveForwardX();
-
         //if (counter%timeToTurn != 0)
         //{
         //}
-
-
         //Update MoveCounter by Frame
-        
     }
 }
