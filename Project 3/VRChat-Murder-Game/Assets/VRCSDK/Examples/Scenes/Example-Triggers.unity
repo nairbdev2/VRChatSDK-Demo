@@ -15222,22 +15222,27 @@ MonoBehaviour:
   ForbidUserPortals: 0
   autoSpatializeAudioSources: 0
   gravity: {x: 0, y: -9.81, z: 0}
-  layerCollisionArr: 
-  capacity: 0
+  layerCollisionArr: 01010101010001010101010100010001010101010101010101010101010101010101010101000101010101010001000101010101010101010101010101010101010101010100010101010101000100010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101000101010101010001000101010101010101010101010101010101000000010000010100000000000000000000000000000101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010100010101010101000100010101010101010101010101010101010101010101010001010100000100000000000001010101010101010101010101010101010101000101010000010000000000000101010101010101010101010101010101010100010101010101000100010101010101010101010101010101010100000001000001010000000000000000000000000000010101010101010101010101010101000101010000010001010101010000000001010101010101010101000000010000010100000000000100000000000000000101010101010101010101010101010001010100000100010001010101010101010101010101010101010101010101000101010000010001000101010101010101010101010101010101010101010100010101000001000100010101010101010101010101010101010101010101010001010101010100000001010101010101010101010101010101010101010101000101010101010000000101010101010101010101010101010101010101010100010101010101000000010101010101010101010101010101010101010101010001010101010100000001010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+  capacity: 8
   contentSex: 0
   contentViolence: 0
   contentGore: 0
   contentOther: 0
   releasePublic: 0
-  unityVersion: 
+  unityVersion: 2017.4.28f1
   Name: 
   NSFW: 0
   SpawnPosition: {x: 0, y: 0, z: 0}
   SpawnLocation: {fileID: 0}
   DrawDistance: 0
   useAssignedLayers: 0
-  DynamicPrefabs: []
-  DynamicMaterials: []
+  DynamicPrefabs:
+  - {fileID: 1397695816633726, guid: 20951a249466f6449882e950bfd20724, type: 2}
+  DynamicMaterials:
+  - {fileID: 2100000, guid: 7a2568654af4bef4cad7a3dfa02c31b2, type: 2}
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: eae9c11350249284e8400a100179e0b2, type: 2}
+  - {fileID: 2100000, guid: b6099d83d6f02e34ea589e768df4173b, type: 2}
   UpdateTimeInMS: 50
   LightMapsNear: []
   LightMapsFar: []
@@ -15278,7 +15283,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   launchedFromSDKPipeline: 0
   completedSDKPipeline: 0
-  blueprintId: 
+  blueprintId: wrld_a68afcb1-4d94-44ca-b830-f7dd4dbb6a92
   contentType: 1
   assetBundleUnityVersion: 5.6.0p3
 --- !u!4 &872619118
@@ -22835,29 +22840,7 @@ MonoBehaviour:
   m_Script: {fileID: -339397700, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Events:
-  - Name: 
-    EventType: 10
-    ParameterString: 
-    ParameterBoolOp: 2
-    ParameterBool: 0
-    ParameterFloat: 0
-    ParameterInt: 1
-    ParameterObject: {fileID: 0}
-    ParameterObjects: []
-    ParameterBytes: 
-    TakeOwnershipOfTarget: 0
-  - Name: 
-    EventType: 10
-    ParameterString: 
-    ParameterBoolOp: 1
-    ParameterBool: 0
-    ParameterFloat: 0
-    ParameterInt: 1
-    ParameterObject: {fileID: 1952049333}
-    ParameterObjects: []
-    ParameterBytes: 
-    TakeOwnershipOfTarget: 0
+  Events: []
 --- !u!23 &1449952005
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27253,29 +27236,7 @@ MonoBehaviour:
   m_Script: {fileID: -339397700, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Events:
-  - Name: 
-    EventType: 10
-    ParameterString: 
-    ParameterBoolOp: 2
-    ParameterBool: 0
-    ParameterFloat: 0
-    ParameterInt: 1
-    ParameterObject: {fileID: 0}
-    ParameterObjects: []
-    ParameterBytes: 
-    TakeOwnershipOfTarget: 0
-  - Name: 
-    EventType: 10
-    ParameterString: 
-    ParameterBoolOp: 1
-    ParameterBool: 0
-    ParameterFloat: 0
-    ParameterInt: 1
-    ParameterObject: {fileID: 2133801012}
-    ParameterObjects: []
-    ParameterBytes: 
-    TakeOwnershipOfTarget: 0
+  Events: []
 --- !u!23 &1801021755
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29317,7 +29278,15 @@ MonoBehaviour:
     Duration: 0
     Timer: 0
     DataElementIdx: 0
-    DataStorageShadowValues: []
+    DataStorageShadowValues:
+    - ParameterString: 
+      ParameterBoolOp: 
+      ParameterFloat: 
+      ParameterInt: 
+    - ParameterString: 
+      ParameterBoolOp: 
+      ParameterFloat: 
+      ParameterInt: 
     AfterSeconds: 0
     ProbabilityLock: 
     Probabilities: []
@@ -29335,29 +29304,7 @@ MonoBehaviour:
   m_Script: {fileID: -339397700, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Events:
-  - Name: 
-    EventType: 10
-    ParameterString: 
-    ParameterBoolOp: 2
-    ParameterBool: 0
-    ParameterFloat: 0
-    ParameterInt: 1
-    ParameterObject: {fileID: 0}
-    ParameterObjects: []
-    ParameterBytes: 
-    TakeOwnershipOfTarget: 0
-  - Name: 
-    EventType: 10
-    ParameterString: 
-    ParameterBoolOp: 1
-    ParameterBool: 0
-    ParameterFloat: 0
-    ParameterInt: 1
-    ParameterObject: {fileID: 46837633}
-    ParameterObjects: []
-    ParameterBytes: 
-    TakeOwnershipOfTarget: 0
+  Events: []
 --- !u!23 &1931939088
 MeshRenderer:
   m_ObjectHideFlags: 0
