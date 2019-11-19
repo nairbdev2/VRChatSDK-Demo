@@ -1,0 +1,375 @@
+fileFormatVersion: 2
+guid: b24b3b4a0d9eddb4fa7acfbfc614c6ef
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Bathroom_Floor
+    100002: Cieling
+    100004: Cieling_Bathroom
+    100006: Door_Handle
+    100008: Door_Handle.001
+    100010: Door_Handle.002
+    100012: Door_Handle.003
+    100014: Door_Inside
+    100016: Door_Inside.001
+    100018: Door_Inside.002
+    100020: Door_Inside.003
+    100022: //RootNode
+    100024: Floor
+    100026: Glass 1
+    100028: Glass 2
+    100030: Glass 3
+    100032: Glass 4
+    100034: Glass 5
+    100036: Glass 6
+    100038: Glass 7
+    100040: Glass 8
+    100042: Left_Door_Frame
+    100044: Left_Door_Frame.001
+    100046: Left_Door_Frame.002
+    100048: Left_Door_Frame.003
+    100050: Mid_Door_Frame
+    100052: Mid_Door_Frame.001
+    100054: Mid_Door_Frame.002
+    100056: Mid_Door_Frame.003
+    100058: Outside_Floor
+    100060: Outside_Floor_Bathroom
+    100062: Pillar
+    100064: Pillar2
+    100066: Pillar3
+    100068: Pillar4
+    100070: Pillar5
+    100072: Pillar6
+    100074: Right_Door_Frame.000
+    100076: Right_Door_Frame.001
+    100078: Right_Door_Frame.002
+    100080: Right_Door_Frame.003
+    100082: Wall_E
+    100084: Wall_E_Bathroom
+    100086: Wall_Interior
+    100088: Wall_N
+    100090: Wall_N_Bathroom
+    100092: Wall_S
+    100094: Wall_W
+    100096: Wall_W_Bathroom
+    400000: Bathroom_Floor
+    400002: Cieling
+    400004: Cieling_Bathroom
+    400006: Door_Handle
+    400008: Door_Handle.001
+    400010: Door_Handle.002
+    400012: Door_Handle.003
+    400014: Door_Inside
+    400016: Door_Inside.001
+    400018: Door_Inside.002
+    400020: Door_Inside.003
+    400022: //RootNode
+    400024: Floor
+    400026: Glass 1
+    400028: Glass 2
+    400030: Glass 3
+    400032: Glass 4
+    400034: Glass 5
+    400036: Glass 6
+    400038: Glass 7
+    400040: Glass 8
+    400042: Left_Door_Frame
+    400044: Left_Door_Frame.001
+    400046: Left_Door_Frame.002
+    400048: Left_Door_Frame.003
+    400050: Mid_Door_Frame
+    400052: Mid_Door_Frame.001
+    400054: Mid_Door_Frame.002
+    400056: Mid_Door_Frame.003
+    400058: Outside_Floor
+    400060: Outside_Floor_Bathroom
+    400062: Pillar
+    400064: Pillar2
+    400066: Pillar3
+    400068: Pillar4
+    400070: Pillar5
+    400072: Pillar6
+    400074: Right_Door_Frame.000
+    400076: Right_Door_Frame.001
+    400078: Right_Door_Frame.002
+    400080: Right_Door_Frame.003
+    400082: Wall_E
+    400084: Wall_E_Bathroom
+    400086: Wall_Interior
+    400088: Wall_N
+    400090: Wall_N_Bathroom
+    400092: Wall_S
+    400094: Wall_W
+    400096: Wall_W_Bathroom
+    2100000: interior_floor_mat
+    2100002: Cieling_Wall_Mat
+    2100004: Outside_Floor_Mat
+    2100006: Pillar_Mat
+    2100008: Door_Frame_Mat
+    2100010: Door_Inside_Material
+    2100012: Door_Handle_Mat
+    2100014: Glass_Mat
+    2300000: Bathroom_Floor
+    2300002: Cieling
+    2300004: Cieling_Bathroom
+    2300006: Door_Handle
+    2300008: Door_Handle.001
+    2300010: Door_Handle.002
+    2300012: Door_Handle.003
+    2300014: Door_Inside
+    2300016: Door_Inside.001
+    2300018: Door_Inside.002
+    2300020: Door_Inside.003
+    2300022: Floor
+    2300024: Glass 1
+    2300026: Glass 2
+    2300028: Glass 3
+    2300030: Glass 4
+    2300032: Glass 5
+    2300034: Glass 6
+    2300036: Glass 7
+    2300038: Glass 8
+    2300040: Left_Door_Frame
+    2300042: Left_Door_Frame.001
+    2300044: Left_Door_Frame.002
+    2300046: Left_Door_Frame.003
+    2300048: Mid_Door_Frame
+    2300050: Mid_Door_Frame.001
+    2300052: Mid_Door_Frame.002
+    2300054: Mid_Door_Frame.003
+    2300056: Outside_Floor
+    2300058: Outside_Floor_Bathroom
+    2300060: Pillar
+    2300062: Pillar2
+    2300064: Pillar3
+    2300066: Pillar4
+    2300068: Pillar5
+    2300070: Pillar6
+    2300072: Right_Door_Frame.000
+    2300074: Right_Door_Frame.001
+    2300076: Right_Door_Frame.002
+    2300078: Right_Door_Frame.003
+    2300080: Wall_E
+    2300082: Wall_E_Bathroom
+    2300084: Wall_Interior
+    2300086: Wall_N
+    2300088: Wall_N_Bathroom
+    2300090: Wall_S
+    2300092: Wall_W
+    2300094: Wall_W_Bathroom
+    3300000: Bathroom_Floor
+    3300002: Cieling
+    3300004: Cieling_Bathroom
+    3300006: Door_Handle
+    3300008: Door_Handle.001
+    3300010: Door_Handle.002
+    3300012: Door_Handle.003
+    3300014: Door_Inside
+    3300016: Door_Inside.001
+    3300018: Door_Inside.002
+    3300020: Door_Inside.003
+    3300022: Floor
+    3300024: Glass 1
+    3300026: Glass 2
+    3300028: Glass 3
+    3300030: Glass 4
+    3300032: Glass 5
+    3300034: Glass 6
+    3300036: Glass 7
+    3300038: Glass 8
+    3300040: Left_Door_Frame
+    3300042: Left_Door_Frame.001
+    3300044: Left_Door_Frame.002
+    3300046: Left_Door_Frame.003
+    3300048: Mid_Door_Frame
+    3300050: Mid_Door_Frame.001
+    3300052: Mid_Door_Frame.002
+    3300054: Mid_Door_Frame.003
+    3300056: Outside_Floor
+    3300058: Outside_Floor_Bathroom
+    3300060: Pillar
+    3300062: Pillar2
+    3300064: Pillar3
+    3300066: Pillar4
+    3300068: Pillar5
+    3300070: Pillar6
+    3300072: Right_Door_Frame.000
+    3300074: Right_Door_Frame.001
+    3300076: Right_Door_Frame.002
+    3300078: Right_Door_Frame.003
+    3300080: Wall_E
+    3300082: Wall_E_Bathroom
+    3300084: Wall_Interior
+    3300086: Wall_N
+    3300088: Wall_N_Bathroom
+    3300090: Wall_S
+    3300092: Wall_W
+    3300094: Wall_W_Bathroom
+    4300000: Floor
+    4300002: Wall_S
+    4300004: Wall_N
+    4300006: Wall_W
+    4300008: Wall_E
+    4300010: Wall_Interior
+    4300012: Cieling
+    4300014: Outside_Floor
+    4300016: Outside_Floor_Bathroom
+    4300018: Wall_E_Bathroom
+    4300020: Wall_N_Bathroom
+    4300022: Cieling_Bathroom
+    4300024: Wall_W_Bathroom
+    4300026: Pillar
+    4300028: Pillar2
+    4300030: Pillar3
+    4300032: Pillar4
+    4300034: Pillar5
+    4300036: Pillar6
+    4300038: Bathroom_Floor
+    4300040: Left_Door_Frame
+    4300042: Right_Door_Frame.001
+    4300044: Mid_Door_Frame
+    4300046: Door_Inside
+    4300048: Door_Handle
+    4300050: Left_Door_Frame.001
+    4300052: Right_Door_Frame.000
+    4300054: Mid_Door_Frame.001
+    4300056: Door_Inside.001
+    4300058: Door_Handle.001
+    4300060: Left_Door_Frame.003
+    4300062: Right_Door_Frame.002
+    4300064: Mid_Door_Frame.003
+    4300066: Door_Inside.003
+    4300068: Door_Handle.003
+    4300070: Left_Door_Frame.002
+    4300072: Right_Door_Frame.003
+    4300074: Mid_Door_Frame.002
+    4300076: Door_Inside.002
+    4300078: Door_Handle.002
+    4300080: Glass 1
+    4300082: Glass 2
+    4300084: Glass 3
+    4300086: Glass 4
+    4300088: Glass 5
+    4300090: Glass 6
+    4300092: Glass 7
+    4300094: Glass 8
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cieling_Wall_Mat
+    second: {fileID: 2100000, guid: 4adc5dbdd8c1a4b4980d56ae5b54c68f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Frame_Mat
+    second: {fileID: 2100000, guid: 18a1440170c824dcf9662582a9a224f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Handle_Mat
+    second: {fileID: 2100000, guid: 64971f477c9c540fd96d97cbd12175ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Inside_Material
+    second: {fileID: 2100000, guid: 9497601f610b24232aec1babf9b226cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Mat
+    second: {fileID: 2100000, guid: 90d5afddd6b92c140ab548733a77b8b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Outside_Floor_Mat
+    second: {fileID: 2100000, guid: ae0096d39b4a94411af340de93a20db4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Pillar_Mat
+    second: {fileID: 2100000, guid: 950f78f0e631a4eae875957341557e44, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: interior_floor_mat
+    second: {fileID: 2100000, guid: a6de3b583da004c058972e71c737c3ad, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
