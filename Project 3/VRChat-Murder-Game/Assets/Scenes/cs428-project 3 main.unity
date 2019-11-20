@@ -19119,6 +19119,7 @@ GameObject:
   m_Component:
   - component: {fileID: 573381158}
   - component: {fileID: 573381159}
+  - component: {fileID: 573381160}
   m_Layer: 0
   m_Name: Elevator Music [Refreshing]
   m_TagString: Untagged
@@ -19232,6 +19233,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &573381160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 573381157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1125178822, guid: f78c4655b33cb5741983dc02e08899cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Gain: 10
+  Far: 80
+  Near: 0
+  VolumetricRadius: 0
+  EnableSpatialization: 0
+  UseAudioSourceVolumeCurve: 0
 --- !u!1 &573818836
 GameObject:
   m_ObjectHideFlags: 0
@@ -28781,7 +28799,7 @@ Prefab:
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.size
-      value: 8
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
@@ -33319,17 +33337,17 @@ Prefab:
         type: 2}
       propertyPath: DynamicMaterials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: bfb96aab0c506c44e98899f3208d2234, type: 2}
+      objectReference: {fileID: 2100000, guid: 64971f477c9c540fd96d97cbd12175ba, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[2]
       value: 
-      objectReference: {fileID: 2100000, guid: 719069f5b58e8714da580cffc2ae37db, type: 2}
+      objectReference: {fileID: 2100000, guid: 18a1440170c824dcf9662582a9a224f4, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[3]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ff537c8e1a84345868e6aeee938ab3, type: 2}
+      objectReference: {fileID: 2100000, guid: ec5ca9d7638ef36488eebe05eec3ed82, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: spawns.Array.data[1]
@@ -33354,22 +33372,22 @@ Prefab:
         type: 2}
       propertyPath: DynamicMaterials.Array.data[4]
       value: 
-      objectReference: {fileID: 2100000, guid: ec5ca9d7638ef36488eebe05eec3ed82, type: 2}
+      objectReference: {fileID: 2100000, guid: 5d95b2b3dbf2e914da1000a8ef984cb6, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[5]
       value: 
-      objectReference: {fileID: 2100000, guid: b6099d83d6f02e34ea589e768df4173b, type: 2}
+      objectReference: {fileID: 2100000, guid: bfb96aab0c506c44e98899f3208d2234, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[6]
       value: 
-      objectReference: {fileID: 2100000, guid: 9cc65c37d7464fc4689c13dc1ee8e616, type: 2}
+      objectReference: {fileID: 2100000, guid: 90d5afddd6b92c140ab548733a77b8b4, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[7]
       value: 
-      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      objectReference: {fileID: 2100000, guid: 719069f5b58e8714da580cffc2ae37db, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[8]
@@ -33379,27 +33397,27 @@ Prefab:
         type: 2}
       propertyPath: DynamicMaterials.Array.data[9]
       value: 
-      objectReference: {fileID: 2100000, guid: bfb96aab0c506c44e98899f3208d2234, type: 2}
+      objectReference: {fileID: 2100000, guid: 76ff537c8e1a84345868e6aeee938ab3, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[10]
       value: 
-      objectReference: {fileID: 2100000, guid: 719069f5b58e8714da580cffc2ae37db, type: 2}
+      objectReference: {fileID: 2100000, guid: 950f78f0e631a4eae875957341557e44, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[11]
       value: 
-      objectReference: {fileID: 2100000, guid: 76ff537c8e1a84345868e6aeee938ab3, type: 2}
+      objectReference: {fileID: 2100000, guid: 4adc5dbdd8c1a4b4980d56ae5b54c68f, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[12]
       value: 
-      objectReference: {fileID: 2100000, guid: ec5ca9d7638ef36488eebe05eec3ed82, type: 2}
+      objectReference: {fileID: 2100000, guid: 9497601f610b24232aec1babf9b226cd, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[13]
       value: 
-      objectReference: {fileID: 2100000, guid: b6099d83d6f02e34ea589e768df4173b, type: 2}
+      objectReference: {fileID: 2100000, guid: a6de3b583da004c058972e71c737c3ad, type: 2}
     - target: {fileID: 114409779611674446, guid: 9cb1e183d39ba432db5c583c4548819c,
         type: 2}
       propertyPath: DynamicMaterials.Array.data[14]
@@ -48841,7 +48859,7 @@ MonoBehaviour:
   TakesOwnershipIfNecessary: 0
   Triggers:
   - TriggerType: 10
-    BroadcastType: 2
+    BroadcastType: 4
     Events:
     - Name: 
       EventType: 10
@@ -48891,7 +48909,7 @@ MonoBehaviour:
     MidiNote: 0
     OscAddr: 
   - TriggerType: 10
-    BroadcastType: 2
+    BroadcastType: 4
     Events:
     - Name: 
       EventType: 10
