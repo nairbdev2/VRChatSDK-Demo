@@ -37,4 +37,6 @@
   * [Torch](https://sketchfab.com/3d-models/minecraft-torch-e88c4214d4bc4437ae6d249237591071)
   * [Floor Texture](http://texturify.com/stock-photo/forest-soil021-8663.html)
   * [Wall Texture](http://texturify.com/stock-photo/grunge014-9037.html)
+  * [Lobby Ambient Sound](https://incompetech.com/music/royalty-free/index.html?isrc=usuan1100270)
+  * [Teleport Sound](https://incompetech.com/music/royalty-free/index.html?isrc=usuan1100270)
 
