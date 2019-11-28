@@ -10,8 +10,6 @@
 * Double-click and launch Project (Ignore warnings if saying it's an old project)
 * Go to Scenes and double-click on 'CS428 P3'
 
-## Alpha Preview Video
-
 ## Final Project Video
 
 ## Resource Links Used
