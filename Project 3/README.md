@@ -21,6 +21,7 @@
   * [Snowman](https://sketchfab.com/3d-models/snowman-low-poly-1390c6cae6b34933a06a88502e284236)
   * [Rug](https://sketchfab.com/3d-models/henrik-wool-rug-160-x-230cm-pink-and-grey-50d522732faa4344995aa0d9c7f1f2c5)
   * [Candy Cane](https://sketchfab.com/3d-models/candycane-be7b493951554b0fb4e126f57eceb938#download)
+  * [Christmas Wreath](https://sketchfab.com/3d-models/wreath-44191293fbf146f191204449047c3300)
 
 # Brian DeVilla
   Models + Links
