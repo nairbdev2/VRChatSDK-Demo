@@ -28,6 +28,8 @@
   Models + Links
   * [Christmas Tree](https://sketchfab.com/3d-models/christmas-tree-polycraft-8d731751c040420b9d2997fb24c645f1)
   * [Christmas Toys](https://assetstore.unity.com/packages/3d/props/interior/christmas-toys-106607)
+  * [S Shadow Figure](https://sketchfab.com/3d-models/s-shadow-animations-v3-223a3a47ae43473a9a8ddd1284f6149f)
+  * [Scary Ambient Noise](https://www.youtube.com/watch?v=a9QCiMuyVjQ)
   
     
 # Yushen Li
