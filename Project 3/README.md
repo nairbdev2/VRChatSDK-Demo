@@ -18,7 +18,6 @@
 
 # Nathan He
   Models + Links
-  * [Christmas Tree](https://sketchfab.com/3d-models/christmas-tree-polycraft-8d731751c040420b9d2997fb24c645f1)
   * [Fireplace](https://sketchfab.com/3d-models/caminetto-7faeeb07b170406692befc0065790fa9)
   * [Christmas Gifts](https://sketchfab.com/3d-models/stack-of-christmas-gifts-6b60665acb9b4399b418be035389de9a)
   * [Snowman](https://sketchfab.com/3d-models/snowman-low-poly-1390c6cae6b34933a06a88502e284236)
@@ -27,6 +26,7 @@
 
 # Brian DeVilla
   Models + Links
+  * [Christmas Tree](https://sketchfab.com/3d-models/christmas-tree-polycraft-8d731751c040420b9d2997fb24c645f1)
   
     
 # Yushen Li
