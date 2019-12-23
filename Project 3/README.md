@@ -1,5 +1,7 @@
 # VRChatSDK-Demo
 ## Note
+VRChat will soon implement UDON Scripting which would replace legacy scripts such as VRC_Triggers on objects. 
+References to coding with UDON: [link](https://ask.vrchat.com/t/getting-started-with-udon/80)
 
 ## Pre-Requisites
 * VRChat Account
