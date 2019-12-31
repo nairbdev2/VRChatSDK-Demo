@@ -13,7 +13,7 @@ References to coding with UDON: [link](https://ask.vrchat.com/t/getting-started-
 * Go to Scenes and double-click on 'CS428 P3'
 
 ## Final Project Video
-* [Fina Project Video](https://www.youtube.com/watch?v=4b-djiMW-Bo)
+* [Final Project Video](https://www.youtube.com/watch?v=4b-djiMW-Bo)
 ## Resource Links Used
 
 # Nathan He
